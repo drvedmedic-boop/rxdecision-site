@@ -35,6 +35,26 @@ Its selection as the RX Decision website logo was an error. The user rejected th
 
 ## Denis Medvedev portrait
 
+### Current website portrait: user-approved edit
+
+On 23 October 2026 the user supplied ten new real photographs and requested one portrait in a white medical coat on a neutral background, following the earlier request for a wider composition with crossed arms and replacement of the website photograph. Three of those new photographs were used as the references. The user then requested slight hair styling and neat beard trimming, with the rest of the portrait preserved, and explicitly approved the resulting image: «утверждаю».
+
+The original uploads remain unchanged and are not published in this repository. All three source JPEGs are 1536 × 2048 pixels:
+
+| Source | Use | SHA-256 |
+|---|---|---|
+| `IMG_20261023_231156515_HDR.jpg` | Primary face and natural smile | `6443a79c70f3b52c16e2721b509a4f8c9f41d8d2ffe08d47ae212d7d6a7f17a6` |
+| `IMG_20261023_231041689_HDR.jpg` | Real crossed-arms pose and body proportions | `b27245e20dc14b69c31cbfa6b6f464817f8fa8381f8c64e745f003a2cc9a7e0b` |
+| `IMG_20261023_231209863_HDR.jpg` | Additional face and proportions reference | `14e64e6abb92722cb2667fc5d40901e871f94c314fd13ed179d1a1d496d1f9b7` |
+
+- The portrait was created with the built-in image editing tool using these real references. The edit adds a white medical coat and neutral light-gray background while preserving the recognizable face, expression and real body/arm pose. A second, localized edit lightly tidies the hair and beard. No badge, logo, stethoscope or other medical props were added. This is an AI-edited derivative, not an unchanged camera original or a claim of pixel-identical preservation.
+- Approved master: PNG, 1100 × 1429 pixels, 1,737,641 bytes; SHA-256 `ae6eae875f4d6c3b09c3e950979a2a9abcd021cdd792842828e5701b67505352`. The full-size result is retained with the generated image in the conversation.
+- Website derivative: `denis-medvedev-portrait-approved-20261023.webp`, 400 × 520 pixels, 19,008 bytes; SHA-256 `78cbe4a877fc5c28a08db82d2dd0d443481e7b8690bcaa9fe7e7baccd530c8e1`.
+- The derivative only downsizes and encodes the approved master as WebP at quality 92, preserving the complete composition without cropping. The output dimensions round the source aspect ratio by less than 0.1%. The existing 100 × 130 desktop and 90 × 117 mobile display boxes and `object-fit: contain` are unchanged. The distinct filename prevents reuse of an earlier photograph from a browser cache.
+- This approval applies to this final portrait. Earlier unapproved generated drafts are not used by the website and are not the identity sources for this image.
+
+### Previous portrait: retained for provenance, no longer displayed
+
 - Saved unchanged as `denis-medvedev.jpg` from the official IACMAC / МАКМАХ congress website.
 - Profile context: https://www.antibiotic.ru/events/27-congress/ — the speaker entry names «Медведев Денис Сергеевич», clinical pharmacologist at Pokrovskaya Hospital.
 - Image: https://www.antibiotic.ru/files/415/medvedev-ds.jpg

@@ -12,7 +12,7 @@ The site uses plain HTML, CSS and JavaScript. No build step, runtime dependencie
 - The turquoise monogram previously named `assets/rx-decision-logo-original.jpg` was selected in error and has been removed from the current site. Do not recover it from history as an approved logo.
 - Brand colors: `#0F3D2E`, `#0B0B0B`, `#6B7280`, `#E5E7EB`, `#FFFFFF`.
 - Inter is hosted locally with its license in `assets/fonts/`.
-- Image provenance and the founder portrait's source-resolution limit are documented in `assets/SOURCES.md`.
+- The founder portrait is the user-approved edit of his own photographs, with a white medical coat, neutral background and light hair/beard grooming. Its sources and approval are documented in `assets/SOURCES.md`.
 - Public copy describes development principles, not clinical validation or medical-use readiness.
 - The legal text in `privacy.html` concerns the LinkedIn Analytics integration. Its operator is not presented as the owner of the clinical product.
 
