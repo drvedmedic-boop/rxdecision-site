@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>RX Decision · responsive review</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#e5e7eb;font:14px system-ui;color:#0b0b0b}.toolbar{position:sticky;top:0;z-index:2;display:flex;align-items:center;flex-wrap:wrap;gap:8px;padding:12px 16px;background:white;border-bottom:1px solid #6b7280}.toolbar strong{margin-right:16px}button,select,a{font:inherit;color:inherit}button,select{min-height:38px;border:1px solid #6b7280;background:white;padding:6px 12px;border-radius:3px}button[aria-pressed=true]{background:#0f3d2e;color:white;border-color:#0f3d2e}a{margin-left:auto}main{padding:24px;overflow:auto}iframe{display:block;max-width:none;border:0;background:white;margin:auto;width:390px;height:844px;box-shadow:0 0 0 1px #6b7280}output{font-variant-numeric:tabular-nums}
+</style>
+</head>
+<body>
+<header class="toolbar"><strong>Responsive review</strong><button data-width="390" data-height="844" aria-pressed="true">Mobile</button><button data-width="834" data-height="1194" aria-pressed="false">Tablet</button><button data-width="1440" data-height="1000" aria-pressed="false">Desktop</button><label>Page <select id="page"><option value="../">Live homepage</option><option value="../privacy.html">Privacy Policy</option><option value="./index.html">Redesign preview</option></select></label><output id="size">390 × 844 px</output><a href="../">Open website ↗</a></header>
+<main><iframe title="RX Decision responsive viewport" src="../"></iframe></main>
+<script>
+const frame=document.querySelector('iframe');
+const size=document.querySelector('#size');
+const buttons=[...document.querySelectorAll('button')];
+for(const button of buttons)button.addEventListener('click',()=>{frame.style.width=button.dataset.width+'px';frame.style.height=button.dataset.height+'px';size.value=button.dataset.width+' × '+button.dataset.height+' px';buttons.forEach(b=>b.setAttribute('aria-pressed',String(b===button)))});
+document.querySelector('#page').addEventListener('change',e=>{frame.src=e.target.value});
+</script>
+</body></html>
