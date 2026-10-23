@@ -6,6 +6,8 @@ Before any work affecting branding, UI, imagery, typography, diagrams or present
 
 The user-approved RX Decision Brand System v1 is binding. The default logo is the one-line green **RX** and near-black **Decision** wordmark. The stacked white RX / Decision mark on green is a separate app icon. Keep the exact five colors, Inter hierarchy, geometry and usage rules in `BRAND.md`.
 
+Approved production exports were recovered from the existing September 2026 asset pack and are stored in `assets/brand/`. Use `rx_decision_logo_horizontal.svg` for the website wordmark and the original `rx_decision_app_icon_512.png` for browser icons. Read their provenance in `assets/SOURCES.md`; do not reconstruct them from JPEG reference sheets.
+
 Never use `assets/rx-decision-logo-original.jpg` as a reference or approved asset. It contains a rejected turquoise Rx monogram that was mistakenly selected on 23 October 2026. Its filename, Git history and use in an earlier page do not make it authoritative.
 
 Preserve the original bytes of user-supplied source images. Do not redraw, retype, generate or replace the logo based on similarity. Do not infer exact brand colors from compressed JPEG pixels; use the printed hex values and the written standard.

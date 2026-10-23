@@ -8,7 +8,8 @@ The site uses plain HTML, CSS and JavaScript. No build step, runtime dependencie
 
 - Read [BRAND.md](BRAND.md) and [AGENTS.md](AGENTS.md) before visual work. They record the user-approved RX Decision Brand System v1 and the correction confirmed on 23 October 2026.
 - Canonical visual references are preserved unchanged in `assets/brand/`: the Brand System v1 sheet, horizontal green RX / black Decision wordmark, and separate app icon.
-- The turquoise monogram in `assets/rx-decision-logo-original.jpg` was selected in error and is not an approved logo. The historical filename must not be treated as proof of authority. This documentation commit does not modify the currently rendered pages.
+- Production exports were recovered from the existing `RX_DECISION_BRAND_V1.zip` asset pack dated 7 September 2026. The original outline SVG is used for both pages; the original green app icon is used as the favicon. See `assets/SOURCES.md` for the source and checksums.
+- The turquoise monogram previously named `assets/rx-decision-logo-original.jpg` was selected in error and has been removed from the current site. Do not recover it from history as an approved logo.
 - Brand colors: `#0F3D2E`, `#0B0B0B`, `#6B7280`, `#E5E7EB`, `#FFFFFF`.
 - Inter is hosted locally with its license in `assets/fonts/`.
 - Image provenance and the founder portrait's source-resolution limit are documented in `assets/SOURCES.md`.

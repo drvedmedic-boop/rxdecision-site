@@ -186,3 +186,17 @@ The existence of a file in earlier uploads, a previous commit or a currently pub
 
 This record confirms the existing design code; it does not introduce a new brand or record approval of the 23 October website redesign.
 
+### Recovered production pack
+
+The existing `RX_DECISION_BRAND_V1.zip` from 7 September 2026 was recovered from the project's files on 23 October 2026. Its `rx_decision_brand_v1_preview.png` is the same brand sheet supplied above, with the expected size/compression differences. Its README identifies the SVG/PNG files as production exports. The SVG wordmarks contain outlines and do not depend on installed fonts.
+
+Unmodified production exports now available in `assets/brand/`:
+
+- `rx_decision_logo_horizontal.svg` — primary website logo, no tagline; use in the header and footer.
+- `rx_decision_logo_with_tagline.svg` — approved secondary lockup.
+- `rx_decision_logo_horizontal_white.svg` — approved white wordmark for appropriate backgrounds.
+- `rx_decision_app_icon_512.png` — original green icon, used for browser icons.
+- `rx_decision_app_icon_1024.png` — original unrounded master.
+
+Use these exports rather than extracting artwork from the JPEG reference sheet. The separately supplied tagline JPEG has different letter proportions; do not claim that it is pixel-identical to the Brand v1 outline SVG. The recovered pack and its matching brand sheet establish the production geometry used on the website. The website's CSS hides only surplus transparent space at the right of the horizontal SVG; it does not alter or crop the letterforms. See `assets/SOURCES.md` for checksums and provenance.
+
