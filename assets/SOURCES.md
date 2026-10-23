@@ -1,16 +1,22 @@
 # Asset provenance
 
-## RX Decision logo
+## Canonical RX Decision visual references
 
-- File: `rx-decision-logo-original.jpg`
-- Source: the user's previously uploaded original `34853.jpg`, uploaded on 19 April 2026.
-- Dimensions: 1031 × 1536 pixels.
-- Size: 71,082 bytes.
-- SHA-256: `ef47e78bb2e920d18ea0caa44c54410b75161d486c365476e60f63891f0e7e6f`.
-- The source was copied byte-for-byte. The logo was not generated, traced, redrawn, recolored, or retouched.
-- The generous blank source canvas can be clipped by page layout without changing the underlying image.
+On 23 October 2026 the user reaffirmed the existing Brand System v1 and supplied these three files directly. See `../BRAND.md` for the full standard. The files below are unchanged copies; no pixels were generated, redrawn, recolored or retouched.
 
-This original was recovered after the site's temporary Figma MCP asset URLs became unavailable. The original Figma exports could not be retrieved, so byte equality with those old exports is not claimed.
+| Repository file | User source filename | Dimensions | SHA-256 |
+|---|---|---|---|
+| `brand/rx-decision-brand-system-v1.jpg` | `photo_2026-10-23_15-17-11.jpg` | 1280 × 818 | `536831be45b27f796e6dde089adfa9a6cd4b45b3dd97abe616f0242e3f162dfa` |
+| `brand/rx-decision-wordmark-tagline.jpg` | `photo_2026-10-23_15-17-03.jpg` | 1280 × 320 | `7bca585bbcc3666ec75e7a7008202f369c5d79462ff1dec048b9fa930bb46b35` |
+| `brand/rx-decision-app-icon.jpg` | `logo.jpg` | 1254 × 1254 | `7c7e4d8b2433bf25e511a05132d4484967fd685147aaf07be5c1e58019e468e4` |
+
+The horizontal green RX / near-black Decision wordmark is the primary identity. The white stacked RX / Decision icon on green is a separate lockup. The brand sheet is a reference, not a substitute production logo image. Prefer approved production exports verified against these references; never reconstruct a logo from typed text or a merely similar image.
+
+## Rejected legacy monogram
+
+`rx-decision-logo-original.jpg` is a byte-for-byte copy of an earlier `34853.jpg` upload (1031 × 1536 pixels, 71,082 bytes; SHA-256 `ef47e78bb2e920d18ea0caa44c54410b75161d486c365476e60f63891f0e7e6f`). It contains a turquoise stylized Rx monogram.
+
+Its selection as the RX Decision website logo was an error. The user rejected that identity on 23 October 2026. The previous description of it as the original/canonical RX Decision logo is withdrawn. Do not use it as a brand reference, even though its historical filename contains `original`. It remains in history and in the previously deployed markup; this documentation change does not claim that the visible website has already been corrected.
 
 ## Denis Medvedev portrait
 
